@@ -16,7 +16,7 @@ Below is a list of library versions for COMCTL32.DLL, and the platforms you woul
 these versions.
 
 | **Version** | **Distribution platform** |
-| --- | --- |
+| --- |:--- |
 | 4.00 | Microsoft Windows 95/Windows NT 4.0 |
 | 4.70 | Microsoft Internet Explorer 3.x |
 | 4.71 | Microsoft Internet Explorer 4.0 |
