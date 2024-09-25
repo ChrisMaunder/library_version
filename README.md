@@ -12,17 +12,22 @@ different, and it can sometimes be critical to know which platform you are
 targeting when writing software that specifically uses functionality in these 
 libraries.
 
-Below is a list of library versions, and the platforms you would expect to find
+Below is a list of library versions for COMCTL32.DLL, and the platforms you would expect to find
 these versions.
 
-| <!----> | <!----> |
-| --- | --- |
 | **Version** | **Distribution platform** |
+| --- | --- |
 | 4.00 | Microsoft Windows 95/Windows NT 4.0 |
 | 4.70 | Microsoft Internet Explorer 3.x |
 | 4.71 | Microsoft Internet Explorer 4.0 |
-| 4.72 | Microsoft Internet Explorer 4.01 and Windows 98 |
-| 5.00 | Microsoft Windows 2000 and Internet Explorer 5 |
+| 4.72 | Microsoft Internet Explorer 4.01, Windows 98, late NT 4.0 |
+| 5.00 | Microsoft Windows 98 SE and Internet Explorer 5 |
+| 5.01 | Microsoft Windows ME and 2000, Internet Explorer 5, 5.5, 6.0 |
+| 5.01 | Microsoft Windows XP, Vista, Server 2003, Server 2008, Windows 7 |
+| 6.0	 |	Windows XP (SxS), Windows Server 2003 (SxS)	 |
+| 6.10	|	Windows Vista (SxS), Windows Server 2008 (SxS), Windows 7 (SxS) |
+
+SXS (versions 6 and 6.10) are side-by-side (SxS) assemblies and must be requested via an application manifest. See Geoff Chappell's [COMCTL32 Versions](https://www.geoffchappell.com/studies/windows/shell/comctl32/history/index.htm) for more details. 
 
 There are a couple of points here:
 
